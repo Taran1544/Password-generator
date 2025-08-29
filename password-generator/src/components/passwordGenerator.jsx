@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./PasswordGenerator.css"; // ✅ Import external CSS file
+import "./passwordGenerator.css"; // 
 
 export default function PasswordGenerator() {
   const [length, setLength] = useState(12);
